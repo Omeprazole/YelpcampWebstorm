@@ -23,4 +23,13 @@ Version 2
     Create, New, Show campgrounds
 
 
+Version 3
+
+    REST - a mapping between HTTP routes and CRUD(Create Read Update Destroy)
+
+    Add comments part
+
+    Add seeds file
+    
+
 
