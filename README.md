@@ -57,9 +57,16 @@ Version 5
    Add stylesheet
 
 Version 6
+
     Authorization
 
     Add login/logout/Register routes
+
+Version 7
+
+    Refactoring routes
+
+    
 
 
 
