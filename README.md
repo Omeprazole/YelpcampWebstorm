@@ -72,6 +72,14 @@ Version 8
 
     Save author's name to a comment automatically
 
+Version 9
+
+    Prevent an unauthenticated user from creating a campground
+
+    Save username+id to newly created campground
+
+
+
 
 
 
