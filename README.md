@@ -66,7 +66,14 @@ Version 7
 
     Refactoring routes
 
-    
+Version 8
+
+    Associate users and comments
+
+    Save author's name to a comment automatically
+
+
+
 
 
 

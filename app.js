@@ -16,6 +16,7 @@ var commentRoutes    = require("./routes/comments"),
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
+app.use(express.static(__dirname + "/public"));
 
 // connect to MongoDB
 mongoose.Promise = Promise;
@@ -23,7 +24,7 @@ var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp";
 mongoose.connect(url, {
     useMongoClient: true,
 });
-app.use(express.static(__dirname + "/public"));
+
 
 //seedDB();
 
