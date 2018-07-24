@@ -78,6 +78,14 @@ Version 9
 
     Save username+id to newly created campground
 
+Version 10
+
+    Add edit and delete features with authorization
+
+    Refactor middleware
+
+
+
 
 
 
