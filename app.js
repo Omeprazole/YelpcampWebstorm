@@ -23,9 +23,9 @@ app.use(methodOverride("_method"));
 app.use(flash());
 
 // connect to MongoDB
-mongoose.Promise = Promise;
 var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp";
-mongoose.connect(url, {
+var url_mlab = process.env.DATABASEURL || "mongodb://guangting:abc123456@ds139619.mlab.com:39619/yelpcampwebstorm";
+mongoose.connect(url_mlab, {
     useMongoClient: true,
 });
 

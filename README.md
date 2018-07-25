@@ -88,6 +88,8 @@ Version 11
 
     Add flash message to improve usability
 
+Version 12
+    Connect data to mognolab
 
 
 
