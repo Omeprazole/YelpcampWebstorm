@@ -90,6 +90,7 @@ Version 11
 
 Version 12
     Connect data to mognolab
+    Deployed: https://aqueous-castle-95654.herokuapp.com/
 
 
 
